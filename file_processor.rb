@@ -14,7 +14,6 @@ class FileProcessor
     @file_path = './json_files'
     @file_ext = '.json'
     @file_names = Dir["#{@file_path}/*#{@file_ext}"]
-    #@file_names = ["./json_files/organizations.json", "./json_files/tickets.json", "./json_files/users.json"]
   end
 
   def names

@@ -8,9 +8,9 @@
 #######################################################################################
 
 require 'json'
-require_relative './file_processor'
-require_relative './string'
-require_relative './search_constants'
+require './file_processor'
+require './string'
+require './search_constants'
 
 #Class for searcihing
 class Search
@@ -31,7 +31,6 @@ class Search
   # Initializes the file_processor and builds the available file names options to choose
   def initialize
     @file_processor = FileProcessor.new
-    puts @file_processor.inspect
     @file_names = @file_processor.names
     @file_selection_opts = Hash[(1..file_names.size).zip file_names]
     @selected_file = nil
