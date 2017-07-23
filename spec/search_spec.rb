@@ -6,7 +6,7 @@
 # Date Created: 07/22/2017                                                            #
 # Date Updated: 07/23/2017                                                            #
 #######################################################################################
-require_relative '../search'
+require_relative '../lib/search'
 
 describe Search do
   let(:search) { Search.new }

@@ -6,7 +6,7 @@
 # Date Created: 07/22/2017                                                            #
 # Date Updated: 07/23/2017                                                            #
 #######################################################################################
-require_relative '../file_processor'
+require_relative '../lib/file_processor'
 
 describe FileProcessor do
   let(:file_processor) { FileProcessor.new }

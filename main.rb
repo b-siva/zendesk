@@ -7,7 +7,7 @@
 # Date Updated: 07/23/2017                                                            #
 #######################################################################################
 require 'optparse'
-require './search'
+require './lib/search'
 
 options = {}
 

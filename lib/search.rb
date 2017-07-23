@@ -7,9 +7,9 @@
 #######################################################################################
 
 require 'json'
-require './file_processor'
-require './string'
-require './search_constants'
+require './lib/file_processor'
+require './lib/string'
+require './lib/search_constants'
 
 #Class for searcihing
 class Search

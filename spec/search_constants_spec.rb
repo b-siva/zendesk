@@ -6,7 +6,7 @@
 # Date Created: 07/22/2017                                                            #
 # Date Updated: 07/23/2017                                                            #
 #######################################################################################
-require_relative '../search_constants'
+require_relative '../lib/search_constants'
 
 describe SearchConstants do
   it 'should return constant TWO' do
