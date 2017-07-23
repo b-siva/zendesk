@@ -39,4 +39,14 @@ describe Search do
     end
   end
 
+  context 'welcome' do
+    before do
+      allow(search).to receive(:gets).and_return('1')
+    end
+
+    it 'should welcome and get user input to complete search' do
+      expect(search.welcome).to be_nil
+    end
+  end
+
 end
