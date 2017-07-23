@@ -137,7 +137,7 @@ class Search
 
     @matched_rows.each_with_index do |row, index|
       row.each do |key,value|
-          puts "#{key}: #{value}".send(index % TWO == 0 ? 'green' : 'red')
+        puts "#{key}: #{value}".send(index % TWO == 0 ? 'green' : 'red')
       end
       puts
       if (index+1) % TWO == 0
