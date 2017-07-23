@@ -40,7 +40,8 @@ class Search
   def welcome
     puts ("\n" + VERBIAGES['pound'] * FIFTY ).green
     puts (" " * TEN + VERBIAGES['welcome']).green
-    puts (VERBIAGES['pound'] * FIFTY + "\n").green
+    puts (VERBIAGES['pound'] * FIFTY).green
+    puts VERBIAGES['quit'].red
     get_file_name
   end
 

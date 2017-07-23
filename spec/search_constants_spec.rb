@@ -39,7 +39,7 @@ describe SearchConstants do
     end
 
     it 'should return its length' do
-      expect(SearchConstants::VERBIAGES.keys.length).to eql(18)
+      expect(SearchConstants::VERBIAGES.keys.length).to eql(19)
     end
 
     it 'should have key dash' do

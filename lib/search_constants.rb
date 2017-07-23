@@ -31,6 +31,7 @@ module SearchConstants
     'field_value_again' => "Want to input one more time? type 'yes' and press enter key:",
     'search_again' => "Want to search one more time? Type 'yes' and press enter or press enter key to end your search:",
     'thank_you' => "\nThank you for using the search and have a nice day!\n",
-    'welcome' => "Welcome to search"
+    'welcome' => "Welcome to search",
+    'quit' => "Press ctrl+c anytime to quit.\n"
   }
 end
