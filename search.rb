@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 #######################################################################################
 # File: search.rb                                                                     #
 # Author: Sivaprakasam Boopathy                                                       #
@@ -35,11 +34,8 @@ class Search
     @file_selection_opts = Hash[(1..file_names.size).zip file_names]
     @selected_file = nil
     @field_name = nil
-    welcome
   end
 
-  # Below methods only available to self
-  private
   #Welcome message
   def welcome
     puts ("\n" + VERBIAGES['pound'] * FIFTY ).green
@@ -48,6 +44,8 @@ class Search
     get_file_name
   end
 
+  # Below methods only available to self
+  private
   # This method gets the user input to select from available file names
   def get_file_name
     begin
@@ -175,7 +173,4 @@ class Search
     puts VERBIAGES['thank_you'].blue
   end
 end
-
-# This will initialize the search object to begin searching
-Search.new
 

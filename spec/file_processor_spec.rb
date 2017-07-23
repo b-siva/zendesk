@@ -1,3 +1,11 @@
+#!/usr/bin/env ruby
+#######################################################################################
+# File: file_processor_spec.rb                                                        #
+# Author: Sivaprakasam Boopathy                                                       #
+# Description: This is spec for file_processor                                        #
+# Date Created: 07/22/2017                                                            #
+# Date Updated: 07/23/2017                                                            #
+#######################################################################################
 require_relative '../file_processor'
 
 describe FileProcessor do

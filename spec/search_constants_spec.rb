@@ -1,3 +1,11 @@
+#!/usr/bin/env ruby
+#######################################################################################
+# File: search_constants_spec.rb                                                      #
+# Author: Sivaprakasam Boopathy                                                       #
+# Description: This is spec for search_constants                                      #
+# Date Created: 07/22/2017                                                            #
+# Date Updated: 07/23/2017                                                            #
+#######################################################################################
 require_relative '../search_constants'
 
 describe SearchConstants do

@@ -10,11 +10,18 @@ $ cd zendesk
 $ bundle
 ```
 
+### Help to run the app
+```sh
+$ cd zendesk
+$ ruby main.rb -h
+```
+
 ### Running the app
 ```sh
 $ cd zendesk
-$ ruby search.rb
+$ ruby main.rb -d true
 ```
+
 
 ### Running the tests
 ```sh

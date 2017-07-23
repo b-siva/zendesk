@@ -24,7 +24,7 @@ module SearchConstants
     'selected_field' => "\nYou selected '%s' field for searching",
     'continue_field_msg' => "Press enter key to continue with selected field or type 'No' to choose different field",
     'field_value' => "Please enter your input for selected field '%s' to search:",
-    'items_found' => "\nThere are %s items found:",
+    'items_found' => "\n%s item(s) found:",
     'proceed' => "Please enter to proceed",
     'end_of_result' => "End of search result",
     'sorry_no_records' => "Sorry, no matching record found",
