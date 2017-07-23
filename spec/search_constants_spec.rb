@@ -37,6 +37,15 @@ describe SearchConstants do
     it 'should have key dash' do
       expect(SearchConstants::VERBIAGES).to have_key('dash')
     end
+
+    it 'should have key pound' do
+      expect(SearchConstants::VERBIAGES).to have_key('pound')
+    end
+
+    it 'welcome key should return welcome message' do
+      expect(SearchConstants::VERBIAGES['welcome']).to eql('Welcome to search')
+    end
+
   end
 
 end
