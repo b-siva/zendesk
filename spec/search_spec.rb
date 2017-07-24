@@ -4,7 +4,7 @@
 # Author: Sivaprakasam Boopathy                                                       #
 # Description: This is spec for search                                                #
 # Date Created: 07/22/2017                                                            #
-# Date Updated: 07/23/2017                                                            #
+# Date Updated: 07/24/2017                                                            #
 #######################################################################################
 require_relative '../lib/search'
 
@@ -45,6 +45,16 @@ describe Search do
     end
 
     it 'should welcome and get user input to complete search' do
+      expect(search.welcome).to be_nil
+    end
+  end
+
+  context 'exit' do
+    before do
+      allow(search).to receive(:gets).and_return( Exception )
+    end
+
+    it 'should exit the application when exception' do
       expect(search.welcome).to be_nil
     end
   end
